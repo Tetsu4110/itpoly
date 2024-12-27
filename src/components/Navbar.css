@@ -1,0 +1,45 @@
+/* การตั้งค่าสีพื้นฐาน */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a8a; /* สีฟ้าที่ดูเข้มและทันสมัย */
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .navbar-link:hover {
+    background-color: #fff;
+    color: #1e3a8a; /* เปลี่ยนสีเป็นฟ้าอ่อนเมื่อ hover */
+  }
+  
+  .navbar-link:active {
+    transform: scale(0.95); /* เพิ่มเอฟเฟกต์ให้ปุ่มหดเมื่อคลิก */
+  }
+  

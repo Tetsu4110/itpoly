@@ -1,0 +1,15 @@
+.contact-container {
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  .contact-details {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .contact-map {
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
