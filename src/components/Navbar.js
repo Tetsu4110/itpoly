@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* โลโก้และข้อความข้างโลโก้ */}
         <Link to="/" className="logo-link">
           <img 
-            src="/logo.png" 
+            src="public/logo.png" 
             alt="Logo" 
             className="logo-image"
           />
