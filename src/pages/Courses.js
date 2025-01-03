@@ -7,7 +7,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF แรก */}
       <iframe
-        src="public/courses1.pdf"  // ระบุพาธไฟล์ PDF แรก
+        src={`${process.env.PUBLIC_URL}/courses1.pdf`}  // ใช้ PUBLIC_URL เพื่อเข้าถึงไฟล์ใน public
         width="80%"
         height="500px"
         title="หลักสูตร PDF 1"
@@ -16,7 +16,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF ที่สอง */}
       <iframe
-        src="public/courses2.pdf"  // ระบุพาธไฟล์ PDF ที่สอง
+        src={`${process.env.PUBLIC_URL}/courses2.pdf`}  // ใช้ PUBLIC_URL เพื่อเข้าถึงไฟล์ใน public
         width="80%"
         height="500px"
         title="หลักสูตร PDF 2"
@@ -25,7 +25,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF ที่สาม */}
       <iframe
-        src="public/courses3.pdf"  // ระบุพาธไฟล์ PDF ที่สาม
+        src={`${process.env.PUBLIC_URL}/courses3.pdf`}  // ใช้ PUBLIC_URL เพื่อเข้าถึงไฟล์ใน public
         width="80%"
         height="500px"
         title="หลักสูตร PDF 3"
@@ -34,7 +34,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF ที่สี่ */}
       <iframe
-        src="public/courses4.pdf"  // ระบุพาธไฟล์ PDF ที่สี่
+        src={`${process.env.PUBLIC_URL}/courses4.pdf`}  // ใช้ PUBLIC_URL เพื่อเข้าถึงไฟล์ใน public
         width="80%"
         height="500px"
         title="หลักสูตร PDF 4"
