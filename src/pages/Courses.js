@@ -2,22 +2,44 @@ import React from "react";
 
 const Courses = () => {
   return (
-    <div>
-      <h1>หลักสูตรที่เปิดสอน</h1>
-      <div>
-        <h2>หลักสูตร ปวช.</h2>
-        <ul>
-          <li>เทคโนโลยีสารสนเทศ</li>
-          <li>การจัดการคอมพิวเตอร์</li>
-        </ul>
-      </div>
-      <div>
-        <h2>หลักสูตร ปวส.</h2>
-        <ul>
-          <li>การพัฒนาโปรแกรมคอมพิวเตอร์</li>
-          <li>ระบบเครือข่าย</li>
-        </ul>
-      </div>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "20px" }}>
+      <h2>หลักสูตรของสาขาเทคโนโลยีสารสนเทศ</h2>
+
+      {/* ไฟล์ PDF แรก */}
+      <iframe
+        src="/courses1.pdf"  // ระบุพาธไฟล์ PDF แรก
+        width="80%"
+        height="500px"
+        title="หลักสูตร PDF 1"
+        style={{ border: "none" }}
+      ></iframe>
+
+      {/* ไฟล์ PDF ที่สอง */}
+      <iframe
+        src="/courses2.pdf"  // ระบุพาธไฟล์ PDF ที่สอง
+        width="80%"
+        height="500px"
+        title="หลักสูตร PDF 2"
+        style={{ border: "none" }}
+      ></iframe>
+
+      {/* ไฟล์ PDF ที่สาม */}
+      <iframe
+        src="/courses3.pdf"  // ระบุพาธไฟล์ PDF ที่สาม
+        width="80%"
+        height="500px"
+        title="หลักสูตร PDF 3"
+        style={{ border: "none" }}
+      ></iframe>
+
+      {/* ไฟล์ PDF ที่สี่ */}
+      <iframe
+        src="/courses4.pdf"  // ระบุพาธไฟล์ PDF ที่สี่
+        width="80%"
+        height="500px"
+        title="หลักสูตร PDF 4"
+        style={{ border: "none" }}
+      ></iframe>
     </div>
   );
 };

@@ -6,7 +6,15 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">คณะเทคโนโลยีสารสนเทศ</Link>
+        {/* โลโก้และข้อความข้างโลโก้ */}
+        <Link to="/" className="logo-link">
+          <img 
+            src="/logo.png" 
+            alt="Logo" 
+            className="logo-image"
+          />
+          <span className="logo-text">IT POLY</span>
+        </Link>
       </div>
       <ul className="navbar-links">
         <li><Link to="/">หน้าแรก</Link></li>
