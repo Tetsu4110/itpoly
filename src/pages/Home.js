@@ -9,19 +9,17 @@ const Home = () => {
       <div className="activity-section">
         <h2>กิจกรรมและข่าวสาร</h2>
         <div className="activity-item">
-          <img 
-            src="/poly1.jpg" 
-            alt="กิจกรรม" 
+          <img
+            src={`${process.env.PUBLIC_URL}/poly1.jpg`}
+            alt="กิจกรรม"
             className="activity-image"
           />
-          <p>กิจกรรมเปิดบ้านเทคโนโลยี</p>
-        </div>
-        <div className="activity-item">
-          <img 
-            src="/poly2.jpg" 
-            alt="กิจกรรม" 
+          <img
+            src={`${process.env.PUBLIC_URL}/poly2.jpg`}
+            alt="กิจกรรม"
             className="activity-image"
           />
+
           <p>การประกวดโครงงานนักศึกษา</p>
         </div>
       </div>
