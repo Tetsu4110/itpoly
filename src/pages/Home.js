@@ -1,16 +1,29 @@
 import React from "react";
+import "./Home.css"; // ไฟล์ CSS สำหรับหน้าแรก
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <h1>ยินดีต้อนรับสู่คณะเทคโนโลยีสารสนเทศ</h1>
-      <p>แนะนำคณะและให้ข้อมูลที่สำคัญเกี่ยวกับคณะ</p>
-      <div>
-        <h2>ข่าวสารและกิจกรรม</h2>
-        <ul>
-          <li>กิจกรรมเปิดบ้านเทคโนโลยี</li>
-          <li>การประกวดโครงงานนักศึกษา</li>
-        </ul>
+
+      <div className="activity-section">
+        <h2>กิจกรรมและข่าวสาร</h2>
+        <div className="activity-item">
+          <img 
+            src="/poly1.jpg" 
+            alt="กิจกรรม" 
+            className="activity-image"
+          />
+          <p>กิจกรรมเปิดบ้านเทคโนโลยี</p>
+        </div>
+        <div className="activity-item">
+          <img 
+            src="/poly2.jpg" 
+            alt="กิจกรรม" 
+            className="activity-image"
+          />
+          <p>การประกวดโครงงานนักศึกษา</p>
+        </div>
       </div>
     </div>
   );

@@ -2,41 +2,89 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff;
+    background-color: #2c3e50;
     padding: 10px 20px;
-    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    font-size: 1.8rem;
+    color: #ecf0f1;
 }
 
 .navbar-logo a {
-    font-size: 20px;
-    font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .navbar-links {
-    list-style: none;
     display: flex;
-    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li {
+    margin-left: 20px;
 }
 
 .navbar-links li a {
+    font-size: 1.2rem;
+    color: #ecf0f1;
     text-decoration: none;
-    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
 }
 
 .navbar-links li a:hover {
-    text-decoration: underline;
+    background-color: #2980b9;
+    border-radius: 5px;
 }
 
-@media (max-width: 768px) {
-    .navbar-links {
-        display: none;
-        /* ซ่อนเมนูบนหน้าจอเล็ก */
-    }
+.logo-text {
+    font-size: 24px;
+    /* ขนาดตัวอักษร */
+    font-weight: bold;
+    /* ตัวหนา */
+    color: #333;
+    /* สีของข้อความ */
+    vertical-align: middle;
+    /* จัดตำแหน่งให้ตรงกับโลโก้ */
+}
 
-    .navbar-logo {
-        font-size: 18px;
-        /* ปรับขนาดโลโก้ */
-    }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-image {
+    width: 50px;
+    /* ปรับขนาดโลโก้ */
+    height: auto;
+    margin-right: 10px;
+    /* ระยะห่างระหว่างโลโก้กับข้อความ */
+}
+
+.logo-text {
+    font-size: 24px;
+    /* ขนาดตัวอักษร */
+    font-weight: bold;
+    /* ตัวหนา */
+    color: #ffffff;
+    /* สีข้อความ */
+    vertical-align: middle;
+    /* จัดตำแหน่งให้ตรงกับโลโก้ */
 }

@@ -1,32 +1,46 @@
 .home-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background-color: #f4f4f9;
-  }
-  
-  .home-welcome {
-    flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .home-welcome h1 {
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  .home-welcome p {
-    font-size: 1.2rem;
-    color: #666;
-  }
-  
-  .home-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fbfd;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.news-section {
+  margin-top: 40px;
+}
+
+.news-title {
+  font-size: 1.8rem;
+  color: #2980b9;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.news-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-item {
+  font-size: 1.2rem;
+  color: #34495e;
+  text-align: center;
+  padding: 10px 0;
+}
