@@ -10,12 +10,12 @@ const Home = () => {
         <h2>กิจกรรมและข่าวสาร</h2>
         <div className="activity-item">
           <img
-            src={`${process.env.PUBLIC_URL}/poly1.jpg`}
+            src={`${process.env.PUBLIC_URL}public/poly1.jpg`}
             alt="กิจกรรม"
             className="activity-image"
           />
           <img
-            src={`${process.env.PUBLIC_URL}/poly2.jpg`}
+            src={`${process.env.PUBLIC_URL}public/poly2.jpg`}
             alt="กิจกรรม"
             className="activity-image"
           />

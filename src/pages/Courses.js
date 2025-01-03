@@ -7,7 +7,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF แรก */}
       <iframe
-        src="/courses1.pdf"  // ระบุพาธไฟล์ PDF แรก
+        src="public/courses1.pdf"  // ระบุพาธไฟล์ PDF แรก
         width="80%"
         height="500px"
         title="หลักสูตร PDF 1"
@@ -16,7 +16,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF ที่สอง */}
       <iframe
-        src="/courses2.pdf"  // ระบุพาธไฟล์ PDF ที่สอง
+        src="public/courses2.pdf"  // ระบุพาธไฟล์ PDF ที่สอง
         width="80%"
         height="500px"
         title="หลักสูตร PDF 2"
@@ -25,7 +25,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF ที่สาม */}
       <iframe
-        src="/courses3.pdf"  // ระบุพาธไฟล์ PDF ที่สาม
+        src="public/courses3.pdf"  // ระบุพาธไฟล์ PDF ที่สาม
         width="80%"
         height="500px"
         title="หลักสูตร PDF 3"
@@ -34,7 +34,7 @@ const Courses = () => {
 
       {/* ไฟล์ PDF ที่สี่ */}
       <iframe
-        src="/courses4.pdf"  // ระบุพาธไฟล์ PDF ที่สี่
+        src="public/courses4.pdf"  // ระบุพาธไฟล์ PDF ที่สี่
         width="80%"
         height="500px"
         title="หลักสูตร PDF 4"
