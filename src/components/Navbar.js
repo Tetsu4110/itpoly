@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* โลโก้และข้อความข้างโลโก้ */}
         <Link to="/" className="logo-link">
           <img 
-            src="public/logo.png" 
+            src={`${process.env.PUBLIC_URL}/logo.png`} // ใช้ PUBLIC_URL เพื่อเข้าถึงไฟล์ใน public
             alt="Logo" 
             className="logo-image"
           />
